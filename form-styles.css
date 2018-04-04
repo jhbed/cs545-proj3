@@ -1,0 +1,33 @@
+/*
+
+Jake Bedard
+jadrn007
+Red ID 818121974
+
+*/
+.login{
+	padding: 20px;
+}
+
+.test{
+	color: black;
+}
+
+.desc{
+	text-align: left;
+
+}
+
+h1{
+	text-align: left;
+
+}
+
+.runner{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.runner:nth-child(odd){background-color: #CCC}
+
+.centered{text-align: center;}

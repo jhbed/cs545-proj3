@@ -1,0 +1,25 @@
+use jadrn007;
+
+drop table if exists runners;
+
+create table runners(
+    id int AUTO_INCREMENT PRIMARY KEY,
+    fname varchar(50) NOT NULL,
+    mname varchar(50),
+    lname varchar(50) NOT NULL,
+    address varchar(100) NOT NULL,
+    address2 varchar(100),
+    city varchar(30) NOT NULL,
+    state char(2) NOT NULL,
+    zip char(5) NOT NULL,
+    phone char(10) NOT NULL,
+    age varchar(3) NOT NULL,
+    email varchar(50) NOT NULL,
+    experience varchar(12) NOT NULL,
+    gender varchar(6) NOT NULL,
+    MedConditions varChar(100),
+    ageCat varchar(6) NOT NULL,
+    picture varchar(50) NOT NULL
+); 
+    
+

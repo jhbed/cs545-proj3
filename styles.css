@@ -1,0 +1,151 @@
+/*
+
+Jake Bedard
+jadrn007
+Red ID 818121974
+
+*/
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+i{
+	color: #dc3545;
+	font-size: 300%;
+}
+
+form{
+	padding-top: 30px;
+	margin: auto;
+	width: 800px;
+}
+
+
+
+#error{
+	color: #dc3545;
+}
+
+#submit-button{
+	margin-bottom: 20px;
+	width: 200px;
+}
+
+#submit-button:hover{
+	cursor: pointer;
+}
+
+#bottom-submit{
+	margin: 10px;
+	margin-top: 20px;
+}
+.text-center{
+	text-align: center;
+}
+
+.submit{
+	padding: 20px;
+	text-align: center;
+}
+
+.radio-title{
+	display: block;
+}
+
+#phone-email-labels .form-group{
+	margin-bottom: 0px;
+}
+
+.no-bottom{
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+#form-title{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.red{
+	color:#dc3545;
+}
+
+.navbar-brand{
+	font-size: 250% !important;
+	font-family: league-gothic !important;
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+.navbar{
+	padding: 0px 30px 0px 30px !important;
+}
+
+#logo{
+	font-family: league-gothic;
+	font-size: 250%;
+	color: white;
+}
+
+#main{
+	font-family: league-gothic;
+	font-size: 600%;
+}
+
+h2{
+	padding: 10px;
+}
+
+.row{
+	padding: 0px 0px 20px 0px;
+}
+
+.col-lg-4{
+	text-align: center;
+}
+
+#center{
+	border-color: black;
+	border-style: solid;
+	border-width: 0px 2px 0px 2px;
+}
+.jumbotron {
+background-image: url("images/runners-banner.jpg");
+background-size: cover;
+height: 720px;
+background: no-repeat center center cover;
+
+}
+
+#cta{
+	background-color: #343a40;
+	color: #fff;
+	text-align: center;
+	padding: 40px;
+}
+
+@media screen and (max-width: 600px) {
+	.jumbotron{
+		background-image: url("images/runners-mobile.jpg");
+	}
+
+	.jumbotron h1{
+		color: white
+	}
+
+	.jumbotron p{
+		font-weight: 900;
+	}
+
+	#center{
+		border-style: none;
+	}
+	
+}
+
+@font-face{
+	font-family: 'league-gothic';
+	src: url(images/League-Gothic/LeagueGothic-Regular.otf);
+}
